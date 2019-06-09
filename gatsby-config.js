@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Sigma Nu - University of Minnesota',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'The Gamma Tau chapter of Sigma Nu Fraternity. Founded in 1904 at the University of Minnesota. We build upon a tradition of excellence based on the values of Love, Honor, and Truth.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
