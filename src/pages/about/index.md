@@ -2,7 +2,7 @@
 templateKey: about-page
 title: About our Fraternity
 ---
-### Built on Excellence
+### Tradition of Excellence
 
 The Gamma Tau chapter of Sigma Nu Fraternity was founded at the University of Minnesota in 1904.
 
