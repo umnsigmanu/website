@@ -4,13 +4,6 @@ title: Sigma Nu Fraternity
 image: /img/banner-about.jpg
 heading: Sigma Nu Fraternity
 subheading: 'Inspiring leaders with values of Love, Honor, and Truth'
-mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
 description: >-
   The Gamma Tau chapter of Sigma Nu Fraternity was founded at the University of
   Minnesota in 1904. Since our founding, our brothers have built a tradition of
