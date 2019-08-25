@@ -4,10 +4,8 @@ title: Alumni
 image: /img/banner-alumni.jpg
 heading: Welcome Back to the Gamma Tau Chapter
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  We invite all alums to explore this site and learn about ways to get involved
+  with the chapter.
 intro:
   blurbs:
     - image: /img/coffee.png
