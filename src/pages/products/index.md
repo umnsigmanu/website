@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Our Coffee
+title: Alumni
 image: /img/banner-alumni.jpg
 heading: Welcome Back to the Gamma Tau Chapter
 description: >-
