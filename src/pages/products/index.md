@@ -1,8 +1,7 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: product-page
 title: Our Coffee
-image: /img/jumbotron.jpg
+image: /img/banner-alumni.jpg
 heading: Welcome Back to the Gamma Tau Chapter
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -99,3 +98,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
