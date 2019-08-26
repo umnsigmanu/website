@@ -121,10 +121,6 @@ export const alumniPageQuery = graphql`
         }
         heading
         description
-        intro {
-          heading
-          description
-        }
         main {
           heading
           description
