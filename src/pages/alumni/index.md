@@ -7,13 +7,13 @@ description: >-
   We invite all alums to explore this site and learn about ways to get involved
   with the chapter.
 main:
-  heading: Get in touch!
+  heading: Get In Touch!
   description: >
     Share your knowledge with the chapter in a LEAD presentation, become an
     Alumni mentor, join our LinkedIn group to connect with old/new friends, or
     come for a visit on game day and see your old room! 
 donation:
-  heading: Support our chapter
+  heading: Support Our Chapter
   description: >
     As an organization, Sigma Nu Gamma Tau exists to provide our members with a
     unique college experience and brotherhood that will benefit them for the rest
