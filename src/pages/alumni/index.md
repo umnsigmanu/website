@@ -12,6 +12,15 @@ main:
     Share your knowledge with the chapter in a LEAD presentation, become an
     Alumni mentor, join our LinkedIn group to connect with old/new friends, or
     come for a visit on game day and see your old room! 
+donation:
+  heading: Support our chapter
+  description: >
+    As an organization, Sigma Nu Gamma Tau exists to provide our members with a
+    unique college experience and brotherhood that will benefit them for the rest
+    of their life. Doing this would not be possible without our generous donors.
+    You can join these donors today and provide support to our chapter.
+    Our preferred method of donations is through our Venmo account @SigmaNuGammaTau.
+    Thank you for your support!
 full_image: /img/banner-mantle.jpg
 ---
 
