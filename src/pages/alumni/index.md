@@ -19,7 +19,9 @@ donation:
     unique college experience and brotherhood that will benefit them for the rest
     of their life. Doing this would not be possible without our generous donors.
     You can join these donors today and provide support to our chapter.
-    Our preferred method of donations is through our Venmo account @SigmaNuGammaTau.
+    Our preferred methods of donations are either through our Venmo account, @SigmaNuGammaTau,
+    or through the Paypal link below.
+    
     Thank you for your support!
 full_image: /img/banner-mantle.jpg
 ---
