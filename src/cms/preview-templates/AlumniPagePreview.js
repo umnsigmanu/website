@@ -14,11 +14,6 @@ const AlumniPagePreview = ({ entry, getAsset }) => {
         heading: entry.getIn(['data', 'main', 'heading']),
         description: entry.getIn(['data', 'main', 'description']),
       }}
-      donation={{
-        heading: entry.getIn(['data', 'donation', 'heading']),
-        description: entry.getIn(['data', 'donation', 'description']),
-      }}
-      fullImage={entry.getIn(['data', 'full_image'])}
     />
   )
 }
