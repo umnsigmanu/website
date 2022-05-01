@@ -81,6 +81,15 @@ footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
 
+// Bulma dropdown override
+$navbar-dropdown-arrow: $primary
+@media screen and (min-width: 1025px)
+  .navbar-item.is-hoverable:hover .navbar-dropdown
+    display: block !important;
+  
+  .navbar-item.is-hoverable:focus-within .navbar-dropdown
+    display: none;
+
 //Menu overrides
 $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
@@ -135,3 +144,4 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
