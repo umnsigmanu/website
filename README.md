@@ -80,6 +80,9 @@ import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
+CMS.registerPreviewTemplate('parents', AboutPagePreview)
+CMS.registerPreviewTemplate('lead-program', AboutPagePreview)
+CMS.registerPreviewTemplate('join', AboutPagePreview)
 CMS.registerPreviewTemplate('alumni', AlumniPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 
