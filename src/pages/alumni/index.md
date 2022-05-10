@@ -12,3 +12,11 @@ main:
     Share your knowledge with the chapter in a LEAD presentation, become an
     Alumni mentor, join our LinkedIn group to connect with old/new friends, or
     come for a visit on game day and see your old room! 
+
+    Here is a link to the Gamma Tau Alumni Facebook page to stay up to date on
+    Alumni News 
+
+    https://www.facebook.com/GammaTauAlumni 
+full_image: /img/logo.png
+---
+
