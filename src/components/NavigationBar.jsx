@@ -1,12 +1,14 @@
-import { NavBar, NavLink } from './NavigationBar.styled';
+import { NavBar, NavBarItem } from './NavigationBar.styled';
 
 export const NavigationBar = () => {
   return (
     <NavBar>
-      <NavLink to={''}>Home</NavLink>
-      <NavLink to={'/about'}>About</NavLink>
-      <NavLink></NavLink>
-      <NavLink></NavLink>
+      <NavBarItem to={''}>Home</NavBarItem>
+      <NavBarItem to={'/about'}>About</NavBarItem>
+      <NavBarItem to={'/join'}>Join Sigma Nu</NavBarItem>
+      <NavBarItem to={'/alumni'}>Alumni</NavBarItem>
+      <NavBarItem to={'/parents'}>Parents</NavBarItem>
+      <NavBarItem to={'/contact'}>Contact Us</NavBarItem>
     </NavBar>
   );
 }
