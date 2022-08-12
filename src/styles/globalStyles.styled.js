@@ -11,6 +11,7 @@ export const ContentContainer = styled.div`
 
 export const Button = styled(Link)`
   padding: 12px 16px 10px 16px;
+  margin: 12px 0px 12px 0px;
   font-size: 18px;
   font-size: 1rem;
   line-height: 1.25;
