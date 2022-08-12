@@ -7,11 +7,6 @@ export const Footer = () => {
       <FooterLink to='/about'>About</FooterLink>
       <FooterLink to='/alumni'>Alumni</FooterLink>
       <FooterLink to='/contact'>Contact</FooterLink>
-      <FooterLink to='/about'>About</FooterLink>
-      <FooterLink to='/about'>About</FooterLink>
-      <FooterLink to='/about'>About</FooterLink>
-      <FooterLink to='/about'>About</FooterLink>
-      <FooterLink to='/about'>About</FooterLink>
     </FooterContainer>
   );
 }
