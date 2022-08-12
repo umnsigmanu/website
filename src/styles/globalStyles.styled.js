@@ -4,12 +4,17 @@ import { Link } from 'react-router-dom';
 export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   padding: 75px 175px 75px 175px;
 `;
 
+export const CenterContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const Button = styled(Link)`
+  max-width: 175px;
   padding: 12px 16px 10px 16px;
   margin: 12px 0px 12px 0px;
   font-size: 18px;
