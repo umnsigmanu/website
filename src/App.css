@@ -2,6 +2,10 @@ h1 {
   font-size: 40px;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .App {
   text-align: center;
 }
