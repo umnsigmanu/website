@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 import { NavigationBar } from '../components/NavigationBar';
 import { Footer } from '../components/Footer';
 import { BannerImage } from '../components/BannerImage';
