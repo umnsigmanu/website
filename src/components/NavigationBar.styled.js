@@ -5,8 +5,8 @@ export const NavBar = styled.nav`
   display: flex;
 
   min-height: 52px;
-  /* background-color: #ffffff; */
-  background-color: red;
+  padding-left: 52px;
+  background-color: #ffffff;
 `;
 
 export const NavBarItem = styled(Link)`
