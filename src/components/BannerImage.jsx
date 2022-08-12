@@ -2,11 +2,9 @@ import { BannerImageContainer, BannerTitle, BannerSubTitle } from "./BannerImage
 
 export const BannerImage = (props) => {
   return (
-    // <>
     <BannerImageContainer image={props.image}>
       <BannerTitle>{props.title}</BannerTitle>
       {props.subTitle && <BannerSubTitle>{props.subTitle}</BannerSubTitle>}
     </BannerImageContainer>
-    // </>
   )
 }

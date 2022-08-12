@@ -33,3 +33,11 @@ export const Button = styled(Link)`
     color: #363636;
   }
 `;
+
+export const ImageGrid = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightgrey;
+`;
