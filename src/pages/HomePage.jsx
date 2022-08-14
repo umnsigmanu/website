@@ -3,7 +3,6 @@ import { Footer } from '../components/Footer';
 import { BannerImage } from '../components/BannerImage';
 import { CenterContainer, ContentContainer, Button } from '../styles/globalStyles.styled';
 import AboutBanner from '../images/banner-about.jpg';
-import InstagramFeed from '../components/InstagramFeed';
 
 export const HomePage = () => {
   return (
@@ -25,8 +24,11 @@ export const HomePage = () => {
         <CenterContainer>
           <Button to='about'>About Our Chapter</Button>
         </CenterContainer>
+        <h3>Follow Us on Instagram!</h3>
+        <CenterContainer>
+          <iframe src="https://embedsocial.com/api/pro_hashtag/ed07405eff6dd4e8fdd0d737fafab98e075ddb76" title="EmbedSocial widget" style={{width: '800px', height: '400px', overflowY: 'auto'}}></iframe>
+        </CenterContainer>
       </ContentContainer>
-      <InstagramFeed />
       <Footer />
     </>
   );
