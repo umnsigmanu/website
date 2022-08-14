@@ -42,3 +42,26 @@ export const ImageGrid = styled.div`
 
   padding: 0px 30px 0px 30px;
 `;
+
+export const FormContainer = styled.form`
+  display: flex;
+  flex-direction: column;
+
+  input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  textarea {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    font-family: inherit;
+  }
+
+  button {
+    width: 50px;
+  }
+`;

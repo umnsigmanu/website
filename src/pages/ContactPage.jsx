@@ -1,6 +1,6 @@
 import { NavigationBar } from '../components/NavigationBar';
 import { Footer } from '../components/Footer';
-import { CenterContainer, ContentContainer } from '../styles/globalStyles.styled';
+import { CenterContainer, ContentContainer, FormContainer } from '../styles/globalStyles.styled';
 
 export const ContactPage = () => {
   return (
@@ -9,36 +9,21 @@ export const ContactPage = () => {
       <ContentContainer>
         <h1>Contact Us</h1>
         <CenterContainer>
-          <form
+          <FormContainer
             name='contact'
             method='POST'
             data-netlify='true'
             netlify-honeypot='bot-field'
           >
-            <p style={{ display: 'none' }}>
-              <label>
-                Field: <input name='bot-field' />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Name: <input type='text' name='name' />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email: <input type='email' name='email' />
-              </label>
-            </p>
-            <p>
-              <label>
-                Message: <textarea name='message'></textarea>
-              </label>
-            </p>
-            <p>
-              <button type='submit'>Send</button>
-            </p>
-          </form>
+            <label style={{ display: 'none' }}>
+              Field: <input name='bot-field' />
+            </label>
+
+            <input type='text' name='name' placeholder='Your Name' />
+            <input type='email' name='email' placeholder='Email'/>
+            <textarea name='message' placeholder='Message'></textarea>
+            <button type='submit'>Send</button>
+          </FormContainer>
         </CenterContainer>
       </ContentContainer>
       <Footer />
