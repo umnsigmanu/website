@@ -5,8 +5,10 @@ export const Footer = () => {
     <FooterContainer>
       <FooterLink to='/'>Home</FooterLink>
       <FooterLink to='/about'>About</FooterLink>
+      <FooterLink to='/join'>Join Sigma Nu</FooterLink>
       <FooterLink to='/alumni'>Alumni</FooterLink>
-      <FooterLink to='/contact'>Contact</FooterLink>
+      <FooterLink to='/parents'>Parents</FooterLink>
+      <FooterLink to='/contact'>Contact Us</FooterLink>
     </FooterContainer>
   );
 }
