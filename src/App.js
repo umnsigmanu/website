@@ -5,6 +5,8 @@ import { AboutPage } from './pages/AboutPage';
 import { AlumniPage } from './pages/AlumniPage';
 import { ContactPage } from './pages/ContactPage';
 import { HomePage } from './pages/HomePage';
+import { JoinPage } from './pages/JoinPage';
+import { ParentsPage } from './pages/ParentsPage';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path='/about' element={<AboutPage />} />
         <Route path='/alumni' element={<AlumniPage />} />
         <Route path='/contact' element={<ContactPage />} />
+        <Route path='/join' element={<JoinPage />} />
+        <Route path='/parents' element={<ParentsPage />} />
       </Routes>
     </>
   );
