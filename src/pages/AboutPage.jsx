@@ -1,9 +1,6 @@
 import { NavigationBar } from '../components/NavigationBar';
 import { Footer } from '../components/Footer';
-import { ContentContainer, ImageGrid } from '../styles/globalStyles.styled';
-
-import PlaceholderImage from '../images/portrait-placeholder.png';
-import { MemberProfile } from '../components/MemberProfile';
+import { ContentContainer } from '../styles/globalStyles.styled';
 
 export const AboutPage = () => {
   return (
@@ -21,17 +18,6 @@ export const AboutPage = () => {
           <li>Campus involvement</li>
         </ul>
       </ContentContainer>
-      {/* <h3>Current Officers</h3>
-      <ImageGrid>
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Executive Commander'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Lieutenant Commander'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Treasurer'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Recorder'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
-      </ImageGrid> */}
       <Footer />
     </>
   )
