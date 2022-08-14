@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
+import { PageNotFound } from './pages/PageNotFound';
 import { AboutPage } from './pages/AboutPage';
 import { AlumniPage } from './pages/AlumniPage';
 import { ContactPage } from './pages/ContactPage';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/join' element={<JoinPage />} />
         <Route path='/parents' element={<ParentsPage />} />
+        <Route path='*' element={<PageNotFound />} />
       </Routes>
     </>
   );
