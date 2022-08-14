@@ -5,7 +5,7 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: 75px 175px 75px 175px;
+  padding: 75px 175px 0px 175px;
 `;
 
 export const CenterContainer = styled.div`
@@ -39,5 +39,6 @@ export const ImageGrid = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  background-color: lightgrey;
+
+  padding: 0px 30px 0px 30px;
 `;

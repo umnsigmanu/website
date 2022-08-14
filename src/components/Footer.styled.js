@@ -9,6 +9,7 @@ export const FooterContainer = styled.footer`
 
   height: 200px;
   background-color: #111111;
+  margin-top: 75px;
   padding-top: 48px;
 `;
 

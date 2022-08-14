@@ -4,9 +4,9 @@ export const MemberProfile = (props) => {
   return (
     <ProfileContainer>
       <ProfilePicture src={props.image} />
-      {props.name}
-      {props.position}
-      {props.email}
+      <h4>{props.name}</h4>
+      <h5>{props.position}</h5>
+      <h5>{props.email}</h5>
     </ProfileContainer>
   );
 }

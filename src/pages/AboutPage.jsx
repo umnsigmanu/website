@@ -20,18 +20,18 @@ export const AboutPage = () => {
           <li>Chapter operations</li>
           <li>Campus involvement</li>
         </ul>
-        <h3>Current Officers</h3>
-        <ImageGrid>
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-          <MemberProfile image={PlaceholderImage} name={'Placeholder name'} position={'position'} email={'email@gmail.com'} />
-        </ImageGrid>
       </ContentContainer>
+      <h3>Current Officers</h3>
+      <ImageGrid>
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Executive Commander'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Lieutenant Commander'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Treasurer'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Recorder'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+      </ImageGrid>
       <Footer />
     </>
   )
