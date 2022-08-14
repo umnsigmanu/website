@@ -3,6 +3,7 @@ import { Footer } from '../components/Footer';
 import { BannerImage } from '../components/BannerImage';
 import { CenterContainer, ContentContainer, Button } from '../styles/globalStyles.styled';
 import AboutBanner from '../images/banner-about.jpg';
+import InstagramFeed from '../components/InstagramFeed';
 
 export const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ export const HomePage = () => {
           <Button to='about'>About Our Chapter</Button>
         </CenterContainer>
       </ContentContainer>
+      <InstagramFeed />
       <Footer />
     </>
   );
