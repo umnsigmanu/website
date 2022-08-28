@@ -3,7 +3,6 @@ import { Footer } from '../components/Footer';
 import { ContentContainer, ImageGrid } from '../styles/globalStyles.styled';
 
 import PlaceholderImage from '../images/portrait-placeholder.png';
-import testImage from '../images/logo.png';
 import { MemberProfile } from '../components/MemberProfile';
 
 export const AboutPage = () => {
