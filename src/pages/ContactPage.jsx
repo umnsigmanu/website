@@ -48,7 +48,7 @@ export const ContactPage = () => {
             method='POST'
             data-netlify='true'
             netlify-honeypot='bot-field'
-            // action='/contact/success'
+            action='/contact/success'
             onSubmit={handleSubmit}
           >
             <input
@@ -78,7 +78,7 @@ export const ContactPage = () => {
               name='bot-field'
               value={honeypot}
               onChange={(e) => setHoneypot(e.target.value)}
-              // style={{display: 'none'}}
+              style={{display: 'none'}}
               placeholder='TODO honeypot'
             />
             <button type='submit'>Send</button>
