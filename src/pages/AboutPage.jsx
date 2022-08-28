@@ -3,6 +3,7 @@ import { Footer } from '../components/Footer';
 import { ContentContainer, ImageGrid } from '../styles/globalStyles.styled';
 
 import PlaceholderImage from '../images/portrait-placeholder.png';
+import testImage from '../images/logo.png';
 import { MemberProfile } from '../components/MemberProfile';
 
 export const AboutPage = () => {
@@ -23,7 +24,7 @@ export const AboutPage = () => {
       </ContentContainer>
       <h3>Current Officers</h3>
       <ImageGrid>
-        <MemberProfile image={PlaceholderImage} name={'John'} position={'Executive Commander'} email={'email@umn.edu'} />
+        <MemberProfile image={testImage} name={'John'} position={'Executive Commander'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'Lieutenant Commander'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'Treasurer'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'Recorder'} email={'email@umn.edu'} />
