@@ -12,7 +12,7 @@ export const ContactSuccessPage = () => {
       <ContentContainer>
         <h3>Thank you for getting in touch!</h3>
         <CenterContainer>
-          <p>We will respond to your message as soon as we can.</p>
+          <p>We've received your message. We will respond as soon as we can.</p>
         </CenterContainer>
       </ContentContainer>
       <Footer />

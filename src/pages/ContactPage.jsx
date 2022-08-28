@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { NavigationBar } from '../components/NavigationBar';
 import { Footer } from '../components/Footer';
@@ -13,6 +14,8 @@ export const ContactPage = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [honeypot, setHoneypot] = useState('');
+
+  const navigate = useNavigate();
 
   const encode = (data) => {
     return Object.keys(data)
@@ -30,7 +33,9 @@ export const ContactPage = () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({ 'form-name': 'contact', name, email, message, honeypot }),
-      })
+      });
+
+      navigate('/contact/success');
     }
     catch {
       alert('Error when submitting form, please try again');
