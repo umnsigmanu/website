@@ -21,9 +21,9 @@ export const AboutPage = () => {
           <li>Campus involvement</li>
         </ul>
       </ContentContainer>
-      {/* <h3>Current Officers</h3>
+      <h3>Current Officers</h3>
       <ImageGrid>
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'Executive Commander'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'John'} position={'Executive Commander'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'Lieutenant Commander'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'Treasurer'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'Recorder'} email={'email@umn.edu'} />
@@ -31,7 +31,10 @@ export const AboutPage = () => {
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
-      </ImageGrid> */}
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+      </ImageGrid>
       <Footer />
     </>
   )
