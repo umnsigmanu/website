@@ -4,6 +4,15 @@ import { ContentContainer, ImageGrid } from '../styles/globalStyles.styled';
 
 import PlaceholderImage from '../images/portrait-placeholder.png';
 import { MemberProfile } from '../components/MemberProfile';
+import Briar from '../images/BriarW.jpg';
+// import PlaceholderImage from '../images/portrait-placeholder.png';
+// import PlaceholderImage from '../images/portrait-placeholder.png';
+// import PlaceholderImage from '../images/portrait-placeholder.png';
+// import PlaceholderImage from '../images/portrait-placeholder.png';
+// import PlaceholderImage from '../images/portrait-placeholder.png';
+// import PlaceholderImage from '../images/portrait-placeholder.png';
+// import PlaceholderImage from '../images/portrait-placeholder.png';
+
 
 export const AboutPage = () => {
   return (
@@ -23,13 +32,13 @@ export const AboutPage = () => {
       </ContentContainer>
       <h3>Current Officers</h3>
       <ImageGrid>
-        <MemberProfile image={PlaceholderImage} name={'Thomas Elliot'} position={'Eminent Commander'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Carson Greenlee'} position={'Eminent Commander'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Henry Larson'} position={'Lieutenant Commander'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Luke Deselich'} position={'Treasurer'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Sam Ericson'} position={'Recorder'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Quin Bates-Janigo'} position={'Marshal'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Joe Hennessy'} position={'Chaplain'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Daniel Caballero'} position={'LEAD Chair'} email={'email@umn.edu'} />
+        <MemberProfile image={Briar} name={'Briar Volkman'} position={'LEAD Chair'} email={'volkm074@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Carson Greenlee'} position={'Recruitment Chair'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Brady Wentzel'} position={'Alumni Relations Chair'} email={'email@umn.edu'} />
         <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
