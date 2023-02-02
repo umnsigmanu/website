@@ -32,9 +32,9 @@ export const AboutPage = () => {
       </ContentContainer>
       <h3>Current Officers</h3>
       <ImageGrid>
-        <MemberProfile image={Carson} name={'Carson Greenlee'} position={'Eminent Commander'} email={'email@umn.edu'} />
-        <MemberProfile image={Vijay} name={'Nathan Vijay'} position={'Lieutenant Commander'} email={'email@umn.edu'} />
-        <MemberProfile image={Franz} name={'Nate Franz'} position={'Treasurer'} email={'email@umn.edu'} />
+        <MemberProfile image={Carson} name={'Carson Greenlee'} position={'Eminent Commander'} email={'gree3219@umn.edu'} />
+        <MemberProfile image={Vijay} name={'Nathan Vijay'} position={'Lieutenant Commander'} email={'vijay156@umn.edu'} />
+        <MemberProfile image={Franz} name={'Nate Franz'} position={'Treasurer'} email={'franz448@umn.edu'} />
         <MemberProfile image={Dane} name={'Dane Unitan'} position={'Recorder'} email={'email@umn.edu'} />
         <MemberProfile image={Owen} name={'Owen Hezlep'} position={'Marshal'} email={'email@umn.edu'} />
         <MemberProfile image={Goob} name={'Gabe Anderson'} position={'Chaplain'} email={'email@umn.edu'} />

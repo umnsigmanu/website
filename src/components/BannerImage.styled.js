@@ -9,8 +9,7 @@ export const BannerImageContainer = styled.div`
   height: 400px;
   width: 100vw;
   background: url(${(props) => props.image});
-  background-size: cover;
-  /* background-size: contain; */
+  background-size: contain;
   background-attachment: fixed;
 `;
 
