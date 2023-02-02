@@ -1,6 +1,9 @@
 import { NavigationBar } from '../components/NavigationBar';
 import { Footer } from '../components/Footer';
-import { ContentContainer } from '../styles/globalStyles.styled';
+import { ContentContainer, ImageGrid } from '../styles/globalStyles.styled';
+
+import PlaceholderImage from '../images/portrait-placeholder.png';
+import { MemberProfile } from '../components/MemberProfile';
 
 export const AboutPage = () => {
   return (
@@ -18,6 +21,20 @@ export const AboutPage = () => {
           <li>Campus involvement</li>
         </ul>
       </ContentContainer>
+      <h3>Current Officers</h3>
+      <ImageGrid>
+        <MemberProfile image={PlaceholderImage} name={'Thomas Elliot'} position={'Eminent Commander'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Henry Larson'} position={'Lieutenant Commander'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Luke Deselich'} position={'Treasurer'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Sam Ericson'} position={'Recorder'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Quin Bates-Janigo'} position={'Marshal'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Joe Hennessy'} position={'Chaplain'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Daniel Caballero'} position={'LEAD Chair'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Carson Greenlee'} position={'Recruitment Chair'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Brady Wentzel'} position={'Alumni Relations Chair'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+        <MemberProfile image={PlaceholderImage} name={'Briar Volkman'} position={'Webmaster'} email={'volkm074@umn.edu'} />
+      </ImageGrid>
       <Footer />
     </>
   )
