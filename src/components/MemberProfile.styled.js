@@ -21,6 +21,8 @@ export const ProfileContainer = styled.div`
 `;
 
 export const ProfilePicture = styled.img`
-  height: 200px;
-  width: 200px;
+  height: auto; 
+  width: auto; 
+  max-width: 200px; 
+  max-height: 200px;
 `;
