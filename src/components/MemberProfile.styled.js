@@ -6,8 +6,8 @@ export const ProfileContainer = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #aa9b70;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 350px;
   margin: 10px 0px 10px 0px;
 
   h4 {
@@ -21,6 +21,8 @@ export const ProfileContainer = styled.div`
 `;
 
 export const ProfilePicture = styled.img`
-  height: 200px;
-  width: 200px;
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
 `;
