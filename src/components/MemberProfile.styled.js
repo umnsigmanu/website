@@ -7,7 +7,7 @@ export const ProfileContainer = styled.div`
   align-items: center;
   background-color: #aa9b70;
   height: 400px;
-  width: 400px;
+  width: 350px;
   margin: 10px 0px 10px 0px;
 
   h4 {
