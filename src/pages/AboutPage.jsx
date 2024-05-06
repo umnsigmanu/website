@@ -4,14 +4,17 @@ import { ContentContainer, ImageGrid } from '../styles/globalStyles.styled';
 
 import PlaceholderImage from '../images/portrait-placeholder.png';
 import { MemberProfile } from '../components/MemberProfile';
-import Briar from '../images/BriarW.jpg';
-import Carson from '../images/CarsonW.jpg';
-import Dane from '../images/DaneW.jpg';
-import Franz from '../images/FranzW.jpg';
-import Goob from '../images/GoobW.jpg';
-import Krop from '../images/KropW.jpg';
+import JP from '../images/JP_Exec.jpg';
+import Karabas from '../images/Karabas_Exec.jpg';
+import RyanH from '../images/RyanH_Exec.jpg';
+import RyanS from '../images/RyanS_Exec.jpg';
+import Dom from '../images/Dom_Exec.jpg';
+import Max from '../images/Max_Exec.jpg';
 import Owen from '../images/OwenW.jpg';
-import Vijay from '../images/VijayW.jpg';
+import Jensen from '../images/Jensen_Exec.jpg';
+import Hugo from '../images/Hugo_Exec.jpg';
+import THISGUY from '../images/Keegan_AR.jpg';
+import Will from '../images/Will_AR.jpg'
 
 
 export const AboutPage = () => {
@@ -31,18 +34,20 @@ export const AboutPage = () => {
         </ul>
       </ContentContainer>
       <h3>Current Officers</h3>
+      
       <ImageGrid>
-        <MemberProfile image={Carson} name={'Carson Greenlee'} position={'Eminent Commander'} email={'gree3219@umn.edu'} />
-        <MemberProfile image={Vijay} name={'Nathan Vijay'} position={'Lieutenant Commander'} email={'vijay156@umn.edu'} />
-        <MemberProfile image={Franz} name={'Nate Franz'} position={'Treasurer'} email={'franz448@umn.edu'} />
-        <MemberProfile image={Dane} name={'Dane Unitan'} position={'Recorder'} email={'email@umn.edu'} />
-        <MemberProfile image={Owen} name={'Owen Hezlep'} position={'Marshal'} email={'email@umn.edu'} />
-        <MemberProfile image={Goob} name={'Gabe Anderson'} position={'Chaplain'} email={'email@umn.edu'} />
-        <MemberProfile image={Briar} name={'Briar Volkman'} position={'LEAD Chairman/Webmaster'} email={'volkm074@umn.edu'} />
-        <MemberProfile image={Krop} name={'Joseph Kropinak'} position={'Recruitment Chair'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Jacob Brown'} position={'Alumni Relations Chair'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
-        <MemberProfile image={PlaceholderImage} name={'Name'} position={'position'} email={'email@umn.edu'} />
+        <MemberProfile image={Karabas} name={'James Karabas'} position={'Eminent Commander'} email={'karab035@umn.edu'} />
+        <MemberProfile image={Jensen} name={'Jensen Rocke'} position={'Lieutenant Commander'} email={'rocke074@umn.edu'} />
+        <MemberProfile image={RyanS} name={'Ryan Schultze'} position={'Treasurer'} email={'schu4649@umn.edu'} />
+        <MemberProfile image={RyanH} name={'Ryan Horejsi'} position={'Recorder'} email={'horej028@umn.edu'} />
+        <MemberProfile image={Hugo} name={'Hugo Drews'} position={'Marshal'} email={'drews093@umn.edu'} />
+        <MemberProfile image={Dom} name={'Dominic Pries'} position={'Chaplain'} email={'pries155@umn.edu'} />
+        <MemberProfile image={JP} name={'Jacob Peterson'} position={'LEAD Chairman'} email={'pete04381@umn.edu'} />
+        <MemberProfile image={Max} name={'Max Unitan'} position={'Recruitment Chair'} email={'unita004@umn.edu'} />
+        <MemberProfile image={Owen} name={'Owen Hezlep'} position={'Alumni Relations Chair'} email={'hezle003@umn.edu'} />
+        <MemberProfile image={THISGUY} name={'Keegan McDevitt'} position={'Assistant Recruitment Chair'} email={'mcdev036@umn.edu'} />
+        <MemberProfile image={Will} name={'Will Davis'} position={'Assistant Recruitment Chair'} email={'davi4579@umn.edu'} />
+      
       </ImageGrid>
       <Footer />
     </>
