@@ -2,7 +2,7 @@ import { NavigationBar } from '../components/NavigationBar';
 import { Footer } from '../components/Footer';
 import { ContentContainer, ImageGrid } from '../styles/globalStyles.styled';
 
-import PlaceholderImage from '../images/portrait-placeholder.png';
+/*import PlaceholderImage from '../images/portrait-placeholder.png';*/
 import { MemberProfile } from '../components/MemberProfile';
 import JP from '../images/JP_Exec.jpg';
 import Karabas from '../images/Karabas_Exec.jpg';
